@@ -6,16 +6,22 @@ Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and
 
 ## Contribution
 
-### 1. Go Offensive or Deffensive
-  This contribution is discussing about whether actively attaching or hiding would lead to a winning situation.
-  
-  ```
-  # Running the code in terminal by typing:
-  python offensive_vs_deffensive.py
-  ```
-  ![](https://github.com/MingoLi/Data-mining-project/blob/master/offensive_vs_defensive.png)
+### 1. Go Offensive or Defensive
+This contribution discusses about whether actively attaching or hiding would lead to a winning situation.
+
+```
+# Running the code in terminal by typing:
+python offensive_vs_deffensive.py
+```
+![](offensive_vs_defensive.png)
   
 ### 2. Go Solo or Collaborate
+This contribution discusses about whether go solo or collaborate in the game would lead to a winning situation.
+```
+# Running the code in terminal by typing:
+python solo_vs_collaborate.py
+```
+![](solo_vs_collaborate.png)
 
 ### 3. Best weapon to use
   Mining the weapons choosed by top 20 players in each game.
