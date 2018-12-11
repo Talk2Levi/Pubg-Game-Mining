@@ -18,7 +18,7 @@ Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and
 ### 2. Go Solo or Collaborate
 
 ### 3. Best weapon to use
-  Mining the weapons choosed by top 20 players in each game, which contributes the decision making on weapon choice.
+  Mining the weapons choosed by top 20 players in each game, which contributes the decision making on weapon choice. The color of the bar in the chart shows the attack range of the weapon, where the hotter the colors represent the shorter range, the colder colors represent the longer range.
   
   ```
   # Please place the file 'kill_match_stats_final_0.csv' at the same folder as best_weapon.py
