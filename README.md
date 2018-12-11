@@ -6,7 +6,7 @@ Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and
 
 ## Contribution
 
-### 1. Go Offensive or Defensive
+### 1. Go offensive or defensive
 This contribution discusses about whether actively attaching or hiding would lead to a winning situation.
 
 ```
@@ -14,14 +14,25 @@ This contribution discusses about whether actively attaching or hiding would lea
 python offensive_vs_deffensive.py
 ```
 ![](offensive_vs_defensive.png)
+
+
+This code group the factor of "player_kills" and "won" the game together to see the correlation between how many people the player killed and won the game.
+```
+agg0.loc[agg0['player_kills'] < 45, ['player_kills', 'won']].groupby('player_kills')
+```
   
-### 2. Go Solo or Collaborate
-This contribution discusses about whether go solo or collaborate in the game would lead to a winning situation.
+### 2. Go solo or collaborate
+This contribution discusses about whether go solo or collaborate in the group game mode would lead to a winning situation.
 ```
 # Running the code in terminal by typing:
 python solo_vs_collaborate.py
 ```
 ![](solo_vs_collaborate.png)
+
+This code group the factor of "play assists" and "won" the game together with party size greater than 1 which is group game mode
+```
+agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_assists').won.mean().
+```
 
 ### 3. Best weapon to use
   Mining the weapons choosed by top 20 players in each game.
