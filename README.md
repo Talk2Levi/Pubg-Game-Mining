@@ -16,3 +16,14 @@ Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and
   ![](https://github.com/MingoLi/Data-mining-project/blob/master/offensive_vs_defensive.png)
   
 ### 2. Go Solo or Collaborate
+
+### 3. Best weapon to use
+  Mining the weapons choosed by top 20 players in each game.
+  
+  ```
+  # Please place the file 'kill_match_stats_final_0.csv' at the same folder as best_weapon.py
+  # Running the code in terminal by typing:
+  python best_weapon.py
+  ```
+  ![](https://github.com/MingoLi/Data-mining-project/blob/master/Killcount_vs_weapontypes_top10.png)
+  ![](https://github.com/MingoLi/Data-mining-project/blob/master/Killcount_vs_weapontypes_top20.png)
