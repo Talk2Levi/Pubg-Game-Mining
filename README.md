@@ -7,14 +7,19 @@ Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and
 ## Contribution
 
 ### 1. Go Offensive or Deffensive
-  This contribution is discussing about whether actively attaching or hiding would lead to a winning situation.
+This contribution is discussing about whether actively attaching or hiding would lead to a winning situation.
+
+```
+# Running the code in terminal by typing:
+python offensive_vs_deffensive.py
+```
+![](https://github.com/MingoLi/Data-mining-project/blob/master/offensive_vs_defensive.png)
   
-  ```
-  # Running the code in terminal by typing:
-  python offensive_vs_deffensive.py
-  ```
-  ![](https://github.com/MingoLi/Data-mining-project/blob/master/offensive_vs_defensive.png)
-  
+This code group the factor of "player_kills" and "won" the game together to see the correlation between how many people the player killed and won the game.
+```
+agg0.loc[agg0['player_kills'] < 45, ['player_kills', 'won']].groupby('player_kills')
+```
+
 ### 2. Go solo or collaborate
 This contribution discusses about whether go solo or collaborate in the group game mode would lead to a winning situation.
 
@@ -27,7 +32,6 @@ python solo_vs_collaborate.py
 ```
 agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_assists').won.mean().
 ```
-
 
 ### 3. Best weapon to use
   Mining the weapons choosed by top 20 players in each game, which contributes the decision making on weapon choice. The color of the bar in the chart shows the attack range of the weapon, where the hotter colors represent the shorter range, the colder colors represent the longer range.
