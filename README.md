@@ -6,7 +6,7 @@ Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and
 
 ## Contribution
 
-### 1. Go Offensive or Deffensive
+### 1. Go offensive or deffensive
 This contribution is discussing about whether actively attaching or hiding would lead to a winning situation.
 
 ```
