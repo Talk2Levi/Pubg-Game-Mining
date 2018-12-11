@@ -30,7 +30,7 @@ python solo_vs_collaborate.py
 ![](solo_vs_collaborate.png)
  This code group the factor of "play assists" and "won" the game together with party size greater than 1 which is group game mode
 ```
-agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_assists').won.mean().
+agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_assists')
 ```
 
 ### 3. Best weapon to use
