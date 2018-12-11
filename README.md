@@ -13,7 +13,7 @@ This contribution is discussing about whether actively attaching or hiding would
 # Running the code in terminal by typing:
 python offensive_vs_deffensive.py
 ```
-![](https://github.com/MingoLi/Data-mining-project/blob/master/offensive_vs_defensive.png)
+![](offensive_vs_defensive.png)
   
 This code group the factor of "player_kills" and "won" the game together to see the correlation between how many people the player killed and won the game.
 ```
@@ -41,8 +41,8 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
   # Running the code in terminal by typing:
   python3 best_weapon.py
   ```
-  ![](https://github.com/MingoLi/Data-mining-project/blob/master/Killcount_vs_weapontypes_top10.png)
-  ![](https://github.com/MingoLi/Data-mining-project/blob/master/Killcount_vs_weapontypes_top20.png)
+  ![](Killcount_vs_weapontypes_top10.png)
+  ![](Killcount_vs_weapontypes_top20.png)
   
 ### 4. Final circle analysis
   We mine the final locations of the winner (1st player) in each game. This reflects the locations of the final circle.
@@ -56,5 +56,5 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
   python3 final_circle_analysis.py MIRAMAR
   where ERANGEL and MIRAMAR are two maps in the game.
   ```
-   ![](https://github.com/MingoLi/Data-mining-project/blob/master/final_circle_erangel.png)
-   ![](https://github.com/MingoLi/Data-mining-project/blob/master/final_circle_miramar.png)
+   ![](final_circle_erangel.png)
+   ![](final_circle_miramar.png)
