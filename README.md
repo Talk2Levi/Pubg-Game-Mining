@@ -15,7 +15,19 @@ Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and
   ```
   ![](https://github.com/MingoLi/Data-mining-project/blob/master/offensive_vs_defensive.png)
   
-### 2. Go Solo or Collaborate
+### 2. Go solo or collaborate
+This contribution discusses about whether go solo or collaborate in the group game mode would lead to a winning situation.
+
+```
+# Running the code in terminal by typing:
+python solo_vs_collaborate.py
+```
+![](solo_vs_collaborate.png)
+ This code group the factor of "play assists" and "won" the game together with party size greater than 1 which is group game mode
+```
+agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_assists').won.mean().
+```
+
 
 ### 3. Best weapon to use
   Mining the weapons choosed by top 20 players in each game, which contributes the decision making on weapon choice. The color of the bar in the chart shows the attack range of the weapon, where the hotter the colors represent the shorter range, the colder colors represent the longer range.
