@@ -33,7 +33,7 @@ matchList = {}
 
 print("Start processing..")
 
-count = 10000
+# count = 10000
 for row in ls:
     # process the rows here
     # if count < 0:
@@ -79,7 +79,7 @@ for value in matchList.values():
             value.insert(i, thisWeapon)
             i += 1
         lastWeapon = thisWeapon
-    value = ', '.join(value)
+    value = ' '.join(value)
 
     if value in sequentialSet:
         sequentialSet[value] += 1
@@ -93,6 +93,6 @@ print("\n\nAll frequent sequence for weapon with minsup = " + str(minsup) + "\n"
 for key in sequentialSet.keys():
     freq = sequentialSet[key]
     if freq >= minsup:
-        print("{" + key + "}: " + str(freq))
+        print("<" + key + ">: " + str(freq))
 
 print("\nEnd of processing.")
