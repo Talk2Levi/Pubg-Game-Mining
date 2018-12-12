@@ -18,7 +18,7 @@ def heatmap(x, y, s, bins=100):
     extent = [xedges[0], xedges[-1], yedges[0], yedges[-1]]
     return heatmap.T, extent
 
-if len(sys.argv) != 2 and sys.argv[1] != 'ERANGEL' and sys.argv[1] != 'MIRAMAR':
+if len(sys.argv) != 2 or sys.argv[1] != 'ERANGEL' or sys.argv[1] != 'MIRAMAR':
     raise Exception("Please take Game Map 'ERANGEL' or 'MIRAMAR' as argument.")
 
 all_records = pd.read_csv('kill_match_stats_final_0.csv')
