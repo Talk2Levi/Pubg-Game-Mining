@@ -70,7 +70,27 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
  ```
   # Please place the file 'kill_match_stats_final_0.csv' at the same folder as weapon_sequential_mining.py
   # Running the code in terminal by typing:
-  python3 final_circle_analysis.py 3
-  where the argument 3 is the minimum support. 
+  python3 final_circle_analysis.py 500
+  where the argument 500 is the minimum support. 
   ```
+  Sample output:
   
+  ```
+  All frequent sequence for weapon with minsup = 500
+
+  {M416, Kar98k, M416}: 999
+  {M416}: 5093
+  {M16A4}: 1973
+  {SCAR-L}: 3402
+  {SCAR-L, M416}: 962
+  {SCAR-L, Kar98k, SCAR-L}: 657
+  {M16A4, SCAR-L}: 693
+  {AKM, SCAR-L}: 567
+  {AKM, M416}: 981
+  {Kar98k, M416}: 551
+  {M16A4, M416}: 943
+  {Mini 14, M416}: 502
+  {UMP9, M416}: 555
+  {AKM}: 1575
+  {M416, SCAR-L}: 530
+  ```
