@@ -61,7 +61,16 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
    ![](final_circle_erangel.png)
    ![](final_circle_miramar.png)
    
-### 5. Weapon choice sequential mining
+### 5. High-risk landing zone analysis
+  At the start of the game, players get to choose their starting/landing position. To determine high risk landing zones, we mine all the locations where players die within the first 2 minutes of the game. We use a heapmap to visualize the player deaths density on the given maps.
+  Here we explore 2 maps:
+  Map1 : ERANGLE
+   ![](erangle_120sec.png)
+   
+  Map 2 : MIRAMAR
+   ![](miramar_120sec.png)
+   
+### 6. Weapon choice sequential mining
   We mine the weapons sequence used by the winner (1st player) in each game. This helps the the decision making on weapon choice that related to the game timing. We can obtain the optimized weapon strategies at different stages of the game from the result.
   <br />
   The pre-processing cleans up all death caused by accident. Then, valid records are collected.
