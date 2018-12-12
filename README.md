@@ -36,7 +36,7 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
 ### 3. Best weapon to use
   Mining the weapons choosed by top 20 players in each game, which contributes the decision making on weapon choice. The color of the bar in the chart shows the attack range of the weapon, where the hotter colors represent the shorter range, the colder colors represent the longer range.
   <br />
-  The pre-processing cleans up all death caused by accident. Then, collect valid records.
+  The pre-processing cleans up all death caused by accident. Then, valid records are collected.
   
   ```
   # Please place the file 'kill_match_stats_final_0.csv' at the same folder as best_weapon.py
@@ -62,7 +62,10 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
    ![](final_circle_miramar.png)
    
 ### 5. Weapon choice sequential mining
-  We mine the weapons sequence of the winner (1st player) in each game. This helps the the decision making on weapon choice that related to the game timing. 
+  We mine the weapons sequence used by the winner (1st player) in each game. This helps the the decision making on weapon choice that related to the game timing. We can obtain the optimized weapon strategies at different stages of the game from the result.
+  <br />
+  The pre-processing cleans up all death caused by accident. Then, valid records are collected.
+  The algorithms collects all the weapons used by the winner (1st player) in each game. The data is stored in a sorted list which sorted by the victim's rank in that game. Then, the adjacent kills with the same weapon are merged. Finally, a valid weapon sequence is generated.
  
  ```
   # Please place the file 'kill_match_stats_final_0.csv' at the same folder as weapon_sequential_mining.py
