@@ -69,8 +69,12 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
    
   Map 2 : MIRAMAR
    ![](miramar_120sec.png)
+
+### 6. Highest Deaths Dealt by Weapon Types Across Different Time Windows
+  Here we mine the hishest deaths dealt by weapon type across 5 minute time windows throughout entire matches. As the game progresses, the safe roaming zone decreases in size and this bring players closer together. Analysing this data may give the player good insight for weapon selection during different times in the game.
+   ![](WeaponsByTime.png)
    
-### 6. Weapon choice sequential mining
+### 7. Weapon choice sequential mining
   We mine the weapons sequence used by the winner (1st player) in each game. This helps the the decision making on weapon choice that related to the game timing. We can obtain the optimized weapon strategies at different stages of the game from the result.
   <br />
   The pre-processing cleans up all death caused by accident. Then, valid records are collected.
