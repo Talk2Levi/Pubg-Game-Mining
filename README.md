@@ -63,7 +63,11 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
    
 ### 5. High-risk landing zone analysis
   At the start of the game, players get to choose their starting/landing position. To determine high risk landing zones, we mine all the locations where players die within the first 2 minutes of the game. We use a heapmap to visualize the player deaths density on the given maps.
+  
+  Refer to `highriskspot.py` for code.
+  
   Here we explore 2 maps:
+  
   Map1 : ERANGLE
    ![](erangle_120sec.png)
    
@@ -72,6 +76,8 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
 
 ### 6. Highest Deaths Dealt by Weapon Types Across Different Time Windows
   Here we mine the hishest deaths dealt by weapon type across 5 minute time windows throughout entire matches. As the game progresses, the safe roaming zone decreases in size and this bring players closer together. Analysing this data may give the player good insight for weapon selection during different times in the game.
+  
+  Refer to `weaponByTime.py` for code.
    ![](WeaponsByTime.png)
    
 ### 7. Weapon choice sequential mining
