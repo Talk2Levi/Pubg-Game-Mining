@@ -6,7 +6,7 @@ The project is for the final case study of a __Fourth Year Level Course: Data Mi
 **[Levi Guo](https://github.com/LeviIsAwesome), [Timothy Levins](https://github.com/timsnetL), [Minghao Li](https://github.com/MingoLi), [Yibin Zhang](https://github.com/YibinZhang1202)**.
 
 ## Dataset
-Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and Statistics](https://www.kaggle.com/skihikingkevin/pubg-match-deaths/data).
+Download the [PUBG Match Deaths and Statistics](https://www.kaggle.com/skihikingkevin/pubg-match-deaths/data) dataset from Kaggle to the current directory.
 
 ## Contribution
 
