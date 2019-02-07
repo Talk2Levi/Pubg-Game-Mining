@@ -4,6 +4,10 @@ A PUBG [(wiki page)](https://en.wikipedia.org/wiki/PlayerUnknown%27s_Battlegroun
 ## Dataset
 Download the dataset from Kaggle to current directory at: [PUBG Match Deaths and Statistics](https://www.kaggle.com/skihikingkevin/pubg-match-deaths/data).
 
+## Main Contributors
+The project is for the final case study of a __Fourth Year Level Course: Data Mining__, and the original main contributors were (names in alphabetical order):
+**[Levi Guo](https://github.com/LeviIsAwesome), [Timothy Levins](https://github.com/timsnetL), [Minghao Li](https://github.com/MingoLi), [Yibin Zhang](https://github.com/YibinZhang1202).
+
 ## Contribution
 
 ### 1. Go offensive or deffensive
