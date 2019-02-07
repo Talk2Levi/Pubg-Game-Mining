@@ -86,7 +86,7 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
    
 ### 7. Weapon choice sequential mining
   We mine the weapons sequence used by the winner (1st player) in each game. This helps the the decision making on weapon choice that related to the game timing. We can obtain the optimized weapon strategies at different stages of the game from the result.
-  <br />
+
   The pre-processing cleans up all death caused by accident. Then, valid records are collected.
   The algorithms collects all the weapons used by the winner (1st player) in each game. The data is stored in a sorted list which sorted by the victim's rank in that game. Then, the adjacent kills with the same weapon are merged. Finally, a valid weapon sequence is generated.
  
