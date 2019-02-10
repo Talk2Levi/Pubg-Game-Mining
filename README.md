@@ -4,7 +4,7 @@ A PUBG [(wiki page)](https://en.wikipedia.org/wiki/PlayerUnknown%27s_Battlegroun
 ## Contributing
 The project was for the final case study of a __Fourth Year Level Course: Data Mining__, and the main contributors were (names in alphabetical order):
 
-| [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars1.githubusercontent.com/u/19772205?s=400&v=4" width="100px;"/><br /><sub><b>Timothy Levins</b></sub>](https://github.com/timsnetL)  |[<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Minghao Li</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/35741243?s=400&v=4" width="100px;"/><br /><sub><b>Yibin Zhang</b></sub>](https://github.com/LongWinter)  |  
+| [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars1.githubusercontent.com/u/19772205?s=400&v=4" width="100px;"/><br /><sub><b>Timothy Levins</b></sub>](https://github.com/timsnetL)  |[<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Minghao Li</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/35741243?s=400&v=4" width="100px;"/><br /><sub><b>Yibin Zhang</b></sub>](https://github.com/YibinZhang1202)  |  
 |---|---|---|---|
 
 
