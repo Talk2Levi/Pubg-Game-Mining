@@ -1,13 +1,6 @@
 # Data-mining-project [![HitCount](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/Pubg-Game-Mining.svg)](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/Pubg-Game-Mining)
 A PUBG [(wiki page)](https://en.wikipedia.org/wiki/PlayerUnknown%27s_Battlegrounds) game data mining project that focus on giving player intuition of how to survive longer and have a better chance to win the game.
 
-## Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat)](#contributors)
-The project was for the final case study of a __Fourth Year Level Course: Data Mining__, and the main contributors were (names in alphabetical order):
-
-| [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars1.githubusercontent.com/u/19772205?s=400&v=4" width="100px;"/><br /><sub><b>Timothy Levins</b></sub>](https://github.com/timsnetL)  |[<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Minghao Li</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/35741243?s=400&v=4" width="100px;"/><br /><sub><b>Yibin Zhang</b></sub>](https://github.com/YibinZhang1202)  |  
-|---|---|---|---|
-
-
 ## Dataset
 Download the [PUBG Match Deaths and Statistics](https://www.kaggle.com/skihikingkevin/pubg-match-deaths/data) dataset from Kaggle to the current directory.
 
@@ -120,3 +113,11 @@ agg0.loc[agg0['party_size'] != 1, ['player_assists', 'won']].groupby('player_ass
   <AKM>: 1575
   <M416 SCAR-L>: 530
   ```
+
+
+## Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat)](#contributors)
+The project was for the final case study of a __Fourth Year Level Course: Data Mining__, and the main contributors were (names in alphabetical order):
+
+| [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars1.githubusercontent.com/u/19772205?s=400&v=4" width="100px;"/><br /><sub><b>Timothy Levins</b></sub>](https://github.com/timsnetL)  |[<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Minghao Li</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/35741243?s=400&v=4" width="100px;"/><br /><sub><b>Yibin Zhang</b></sub>](https://github.com/YibinZhang1202)  |  
+|---|---|---|---|
+
